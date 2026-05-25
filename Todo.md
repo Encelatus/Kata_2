@@ -5,4 +5,4 @@
 - return 2 for a single 3 :white_check_mark:
 - return 4 for a single 5 :white_check_mark:
 - sum up electrons for multiple 3s and 5s :white_check_mark:
-- handle all given example inputs correctly
+- handle all given example inputs correctly :white_check_mark:
