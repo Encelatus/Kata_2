@@ -14,4 +14,8 @@ describe("Electrons around the cores", function () {
   it("should return 2 for a single 3", function () {
     expect(game.count([3])).toEqual(2);
   });
+
+  it("should return 4 for a single 5", function () {
+    expect(game.count([5])).toEqual(4);
+  });
 });
