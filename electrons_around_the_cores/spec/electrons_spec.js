@@ -22,4 +22,8 @@ describe("Electrons around the cores", function () {
   it("should sum up electrons for multiple 3s and 5s", function () {
     expect(game.count([3, 5])).toEqual(6);
   });
+
+  it("should return 6 for [1,2,3,4,5]", function () {
+    expect(game.count([1, 2, 3, 4, 5])).toEqual(6);
+  });
 });
