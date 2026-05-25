@@ -4,6 +4,9 @@ ElectronsGame.prototype.count = function(dice) {
     if (dice[i] === 3) {
       return 2;
     }
+    if (dice[i] === 5) {
+      return 4;
+    }
   }
   return 0;
 };
